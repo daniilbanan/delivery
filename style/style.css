@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0 px;
+    font-family: Circe, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #eb3a11;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logo {
+    width: 75px;
+    margin-left: 5%;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.search {
+    width: 350px;
+    margin-left: 300px;
+}
+
+.search > form {
+    padding: 5px 0 5px 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .search {
+        width: 50px;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_item">
+            <div class="logo">
+                <img src="img/logo.png" alt="Всё на дом">
+            </div>
+            <div class="search">
+                <form action="/search/" method="get">
+                    <input type="text" name="" placeholder="Искать...">
+                </form>
+                <span class="magnify">
+
+                </span>
+            </div>
+            <div class="basket"></div>
+        </div>
+        <div>
+            <nav class="menu">
+                <ul>
+                    <li>главная</li>
+                    <li onmousemove="showCity()" class="showCity">доставка из <span class="down"></span></li>
+                    <li>о нас</li>
+                    <li>контакты</li>
+                    <div class="modal city">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="slider-wrap">
+                <div class="slide1"></div>
+                <div class="slide2"></div>
+                <div class="slide3"></div>
+                <div class="slide4"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="scripts/scripts.js"></script>
+
+</html>
