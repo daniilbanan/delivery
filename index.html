@@ -19,34 +19,54 @@
                 <form action="/search/" method="get">
                     <input type="text" name="" placeholder="Искать...">
                 </form>
-                <span class="magnify">
-
-                </span>
+                <div class="search_button">
+                    <img src="img/search.png" alt="Поиск">
+                </div>
             </div>
             <div class="basket"></div>
         </div>
-        <div>
-            <nav class="menu">
+        <div class="menu">
+            <div class="menu-wrap">
                 <ul>
                     <li>главная</li>
                     <li onmousemove="showCity()" class="showCity">доставка из <span class="down"></span></li>
                     <li>о нас</li>
                     <li>контакты</li>
-                    <div class="modal city">
-                    </div>
+                    <!-- <div class="modal city">
+            </div> -->
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
     <main>
-        <section class="slider">
-            <div class="slider-wrap">
-                <div class="slide1"></div>
-                <div class="slide2"></div>
-                <div class="slide3"></div>
-                <div class="slide4"></div>
+
+        <div class="wrapper">
+            <input type="radio" name="point" id="slide1" checked>
+            <input type="radio" name="point" id="slide2">
+            <input type="radio" name="point" id="slide3">
+            <input type="radio" name="point" id="slide4">
+            <div class="slider">
+                <div class="slides slide1">
+                    <img src="img/macdonalds.jpg" alt="">
+                </div>
+                <div class="slides slide2">
+                    <img src="img/markets.jpg" alt="">
+                </div>
+                <div class="slides slide3">
+                    <img src="img/drugs.jpg" alt="">
+                </div>
+                <div class="slides slide4">
+                    <img src="img/darling.jpg" alt="">
+                </div>
             </div>
-        </section>
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+
     </main>
     <footer>
 
