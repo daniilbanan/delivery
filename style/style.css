@@ -23,6 +23,10 @@ header {
     margin-top: 50px;
 } 
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     width: 200px;
     margin-left: 5%;
@@ -324,3 +328,12 @@ header {
 
 }
 
+footer {
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #217b45;
+    width: 100%;
+
+}
