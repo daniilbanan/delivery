@@ -76,34 +76,40 @@ header {
     margin-top: 50px;
 }
 
-.menu-wrap {
+.wrap {
     width: 80%;
     margin: 0 auto;
 }
 
-.menu-wrap > ul > li {
+.wrap > ul {
+    width: 100%;
+}
+
+.wrap > ul > li {
     display: inline-block;
-    padding: 12px 75px;
+    padding: 12px 0;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
     /* border-right: 1px solid #fff; */
     font-size: 17px;
+    width: 20%;
+    text-align: center;
 }
 
-.menu-wrap > ul > li:hover {
+.wrap > ul > li:hover {
     color: #ddd;
     background-color: #195b34;
 }
 
-.menu-wrap > ul > li:active {
+.wrap > ul > li:active {
     color: #dbdbdb;
     background-color: #25a85a;
 }
 
-.menu-wrap > ul > li:nth-last-child(1) {
+.wrap > ul > li:nth-last-child(1) {
     display: inline-block;
-    padding: 12px 75px;
+    padding: 12px 0;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
