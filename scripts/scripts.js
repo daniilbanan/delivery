@@ -1,5 +1,8 @@
-function showCity() {
-    var city = document.querySelector('div.showCity');
-    var modal = document.querySelector('div.city');
-    modal.visibility = "visible";
+function hideFooter () {
+    var header = $('.header')
+    if($('header').scrollTop >=100) {
+        $('header').css("opacity", "0");
+    } else {
+        $('header').css("opacity", "1");
+    }
 }
