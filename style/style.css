@@ -4,6 +4,10 @@
     font-family: Circe, Helvetica, sans-serif;
 }
 
+p {
+    font-size: 16px;
+}
+
 .header {
     background-color: #eb3a11;
     width: 100%;
@@ -385,4 +389,78 @@ footer {
 .rights {
     margin: 25px 0 0 7%;
     color: grey;
+}
+
+/*стили для карточки товара*/
+
+.model-wrap {
+    width: 90%;
+    height: 100vh;
+    padding: 0 5%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.model-photo {
+    max-width: 600px;
+    height: 600px;
+    align-self: center;
+}
+
+.model-photo > img {
+    width: 100%;
+}
+
+.model-desc {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    align-self: center;
+    height: auto;
+}
+
+.model-desc-caption {
+    font-size: 40px;
+}
+
+.model-desc-price {
+    font-size: 30px;
+    margin: 15px 0;
+    color: #eb3a11;
+}
+
+.putInBasket {
+    margin-top: 25px;
+    width: 300px;
+    padding: 15px;
+    background-color: #eb3a11;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.putInBasket:hover {
+    background-color: #ec441e;
+    color: #ddd;
+}
+
+.putInBasket:active {
+    background-color: #ce3b1a;
+    color: #dbdbdb;
+}
+
+@media screen and (max-width: 830px) {
+    .model-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .model-desc {
+        max-width: 80%;
+    }
 }

@@ -38,66 +38,28 @@
             </div>
         </div>
     </header>
+
     <main>
-        <div class="wrapper">
-            <input type="radio" name="point" id="slide1" checked>
-            <input type="radio" name="point" id="slide2">
-            <input type="radio" name="point" id="slide3">
-            <input type="radio" name="point" id="slide4">
-            <div class="slider">
-                <div class="slides slide1">
-                    <img src="img/macdonalds.jpg" alt="">
-                </div>
-                <div class="slides slide2">
-                    <img src="img/markets.jpg" alt="">
-                </div>
-                <div class="slides slide3">
-                    <img src="img/drugs.jpg" alt="">
-                </div>
-                <div class="slides slide4">
-                    <img src="img/darling.jpg" alt="">
-                </div>
+        <div class="model-wrap">
+            <div class="model-photo">
+                <img src="img/catalog/macdonalds.jpg" alt="">
             </div>
-            <div class="controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+            <div class="model-desc">
+                <span class="model-desc-caption">Биг Тейсти МакКомбо</span>
+                <span class="model-desc-price">от&nbsp;315 рублей</span>
+                <p class="model-desc-text">
+                    Выбери свой МакКОМБО: МакКОМБО с Биг Тейсти®, стандартной порцией картофеля фри и одним холодным
+                    (0,4)
+                    или горячим (0,2) напитком. Большой МакКОМБО с Биг Тейсти®, большой порцией картофеля фри и одним
+                    холодным (0,5) или горячим (0,3) напитком всего за +30 рублей к цене стандартного МакКОМБО!
+                </p>
+                <form action="">
+                    <input type="button" value="В КОРЗИНУ" class="putInBasket" onclick="fuction(putInBasket)">
+                </form>
             </div>
         </div>
-        <section class="order">
-            <div class="question">
-                <span>Откуда вам доставить?</span>
-            </div>
-            <div class="order-item">
-                <div class="order-item_pic">
-                    <img src="img/m2.jpg" alt="">
-                </div>
-                <div class="order-item_button mc">
-                    <span>Круглосуточная доставка из mcdonalds</span>
-                    <button>Заказать</button>
-                </div>
-            </div>
-            <div class="order-item">
-                <div class="order-item_pic">
-                    <img src="img/sh2.png" alt="">
-                </div>
-                <div class="order-item_button sh">
-                    <span>Круглосуточная доставка из шаурмы</span>
-                    <button>Заказать</button>
-                </div>
-            </div>
-            <div class="order-item">
-                <div class="order-item_pic">
-                    <img src="img/d2.jpg" alt="">
-                </div>
-                <div class="order-item_button darling">
-                    <span>Круглосуточная доставка из "дорогая, буду поздно"</span>
-                    <button>Заказать</button>
-                </div>
-            </div>
-        </section>
     </main>
+
     <footer>
         <div class="footer-wrap">
             <div class="footer-item">
@@ -142,6 +104,7 @@
         </div>
         <div class="rights">&#169;2019. Все права защищены</div>
     </footer>
+
 </body>
 <script src="scripts/scripts.js"></script>
 <script src="scripts/jquery-3.3.1.min.js"></script>
